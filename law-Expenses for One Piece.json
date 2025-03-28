@@ -467,11 +467,11 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<link=\"view:87:31230542\"><icon name=\"District\" type=\"\"><color=#32270DFF>OP Bridges</color></icon></link>",
+                            "internalDescription": "<link=\"view:87:31230542\"><icon name=\"District\" type=\"\"><color=#32270DFF>OP Bridges Revision</color></icon></link>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Bridges",
+                                "name": "OP Bridges Revision",
                                 "reference": true
                               }
                             ]
