@@ -14,7 +14,7 @@
         "reference": false,
         "properties": {
           "Title": "Infrastructure - Roads",
-          "UserDescription": "Pleace read carefully:\n\nAll roads shall be placed on surface level 67. For excemptions consult Mayor of One Piece.\nBridges will be built via contracts beside the road placing law right here.\n\nAbuse of this law by placing roads vertically is hereby prohibited and will be prosecuted.\n\nDirt, Clay and Rocks can be sold at the City Warehouse or kept for personal use.\n\nBy placing roads you agree to above mentioned. Thank you for your understanding and for your work!\n",
+          "UserDescription": "Pleace read carefully:\n\nPayout for stone road placement. Please read and follow local road placement signs. For excemptions consult Mayor of One Piece.\n\nAbuse of this law by placing roads vertically is hereby prohibited and will be prosecuted.\n\nDirt, Clay and Rocks can be sold at the City Warehouse or kept for personal use.\n\nBy placing roads you agree to above mentioned. Thank you for your understanding and for your work!\n",
           "Triggers": [
             {
               "type": "Eco.Gameplay.Civics.Laws.TriggerSettings",
@@ -38,11 +38,11 @@
                           "value": "Eco.Gameplay.Items.Item"
                         },
                         "requiredTag": "Constructable",
-                        "internalDescription": "<link=\"Item:AsphaltConcreteItem\"><style=\"Item\"><icon name=\"AsphaltConcreteItem\" type=\"\">Asphalt Concrete</icon></style></link>",
+                        "internalDescription": "<link=\"Item:StoneRoadItem\"><style=\"Item\"><icon name=\"StoneRoadItem\" type=\"\">Stone Road</icon></style></link>",
                         "entries": [
                           {
                             "type": "Type",
-                            "value": "Eco.Mods.TechTree.AsphaltConcreteItem"
+                            "value": "Eco.Mods.TechTree.StoneRoadItem"
                           }
                         ]
                       }
@@ -101,16 +101,16 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:87:31230545\"><icon name=\"District\" type=\"\"><color=#171AB3FF>OP Piped Roads Revision</color></icon></link>\r\n<link=\"view:87:31230538\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision</color></icon></link></foldout>",
+                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:3710:22396163\"><icon name=\"District\" type=\"\"><color=#0A0081FF>OP Piped Roads Revision 38</color></icon></link>\r\n<link=\"view:3710:22396162\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision 43</color></icon></link></foldout>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Roads Revision",
+                                "name": "OP Roads Revision 43",
                                 "reference": true
                               },
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Piped Roads Revision",
+                                "name": "OP Piped Roads Revision 38",
                                 "reference": true
                               }
                             ]
@@ -145,7 +145,7 @@
                       },
                       "Amount": {
                         "type": "GameValueWrapper",
-                        "value": 4.0
+                        "value": 3.5
                       },
                       "Target": {
                         "type": "GameValueContext",
@@ -155,7 +155,7 @@
                       },
                       "PaymentCode": "Thx 4 placing roads!",
                       "Silent": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
                         "properties": {}
                       },
                       "InfoboxOnSuccess": {
@@ -197,16 +197,16 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:87:31230545\"><icon name=\"District\" type=\"\"><color=#171AB3FF>OP Piped Roads Revision</color></icon></link>\r\n<link=\"view:87:31230538\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision</color></icon></link></foldout>",
+                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:3710:22396163\"><icon name=\"District\" type=\"\"><color=#0A0081FF>OP Piped Roads Revision 38</color></icon></link>\r\n<link=\"view:3710:22396162\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision 43</color></icon></link></foldout>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Roads Revision",
+                                "name": "OP Roads Revision 43",
                                 "reference": true
                               },
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Piped Roads Revision",
+                                "name": "OP Piped Roads Revision 38",
                                 "reference": true
                               }
                             ]
@@ -252,7 +252,7 @@
                       },
                       "Amount": {
                         "type": "GameValueWrapper",
-                        "value": 4.0
+                        "value": 3.5
                       },
                       "Target": {
                         "type": "Eco.Mods.Companies.EmployerLegalPersonAlias",
@@ -271,7 +271,7 @@
                         "properties": {}
                       },
                       "Silent": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
                         "properties": {}
                       },
                       "InfoboxOnSuccess": {
@@ -313,16 +313,16 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:87:31230545\"><icon name=\"District\" type=\"\"><color=#171AB3FF>OP Piped Roads Revision</color></icon></link>\r\n<link=\"view:87:31230538\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision</color></icon></link></foldout>",
+                            "internalDescription": "<foldout><linktext><u>2 Districts</u></linktext><title>2 Districts</title><link=\"view:3710:22396163\"><icon name=\"District\" type=\"\"><color=#0A0081FF>OP Piped Roads Revision 38</color></icon></link>\r\n<link=\"view:3710:22396162\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision 43</color></icon></link></foldout>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Roads Revision",
+                                "name": "OP Roads Revision 43",
                                 "reference": true
                               },
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Piped Roads Revision",
+                                "name": "OP Piped Roads Revision 38",
                                 "reference": true
                               }
                             ]
@@ -357,7 +357,7 @@
                       },
                       "Amount": {
                         "type": "GameValueWrapper",
-                        "value": 4.0
+                        "value": 3.5
                       },
                       "Target": {
                         "type": "GameValueContext",
@@ -371,270 +371,9 @@
                         "properties": {}
                       },
                       "Silent": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
                         "properties": {}
                       },
-                      "InfoboxOnSuccess": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
-                        "properties": {}
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "type": "Eco.Gameplay.Civics.Laws.LawSection",
-        "reference": false,
-        "properties": {
-          "Title": "Bridge Protection",
-          "UserDescription": "This law is responsible to protect custom built bridges.",
-          "Triggers": [
-            {
-              "type": "Eco.Gameplay.Civics.Laws.TriggerSettings",
-              "reference": false,
-              "properties": {
-                "Trigger": {
-                  "type": "Type",
-                  "value": "Eco.Gameplay.GameActions.ConstructOrDeconstruct"
-                },
-                "Configs": [
-                  {
-                    "type": "Eco.Gameplay.GameActions.SelectTriggerConfig",
-                    "typeToConfig": "Eco.Gameplay.GameActions.ConstructOrDeconstruct",
-                    "propNameBacker": "ItemUsed",
-                    "propDisplayName": "Item Used",
-                    "properties": {
-                      "List": {
-                        "type": "GamePickerList",
-                        "mustDeriveType": {
-                          "type": "Type",
-                          "value": "Eco.Gameplay.Items.Item"
-                        },
-                        "requiredTag": "Constructable",
-                        "internalDescription": "Any",
-                        "entries": []
-                      }
-                    }
-                  },
-                  {
-                    "type": "Eco.Gameplay.GameActions.SelectTriggerConfig",
-                    "typeToConfig": "Eco.Gameplay.GameActions.ConstructOrDeconstruct",
-                    "propNameBacker": "ToolUsed",
-                    "propDisplayName": "Tool Used",
-                    "properties": {
-                      "List": {
-                        "type": "GamePickerList",
-                        "mustDeriveType": {
-                          "type": "Type",
-                          "value": "Eco.Gameplay.Items.Item"
-                        },
-                        "requiredTag": "Construction",
-                        "internalDescription": "Any",
-                        "entries": []
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ],
-          "IfThenBlocks": [
-            {
-              "type": "Eco.Gameplay.Civics.IfThenBlock",
-              "reference": false,
-              "properties": {
-                "If": {
-                  "type": "Eco.Gameplay.Civics.GameValues.SetOfConditions",
-                  "properties": {
-                    "List": [
-                      {
-                        "type": "Eco.Gameplay.Civics.GameValues.Values.DistrictRequirements",
-                        "properties": {
-                          "Location": {
-                            "type": "GameValueContext",
-                            "_name": "Action Location",
-                            "markedUpName": "<icon name=\"ConstructOrDeconstruct\" type=\"\">Action Location</icon>",
-                            "contextDescription": "<i>The position where the interaction took place.</i>"
-                          },
-                          "Districts": {
-                            "type": "GamePickerList",
-                            "mustDeriveType": {
-                              "type": "Type",
-                              "value": "Eco.Gameplay.LegislationSystem.District"
-                            },
-                            "requiredTag": null,
-                            "internalDescription": "<link=\"view:87:31230542\"><icon name=\"District\" type=\"\"><color=#32270DFF>OP Bridges Revision</color></icon></link>",
-                            "entries": [
-                              {
-                                "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Bridges Revision",
-                                "reference": true
-                              }
-                            ]
-                          },
-                          "Requirements": "InsideOne"
-                        }
-                      }
-                    ],
-                    "Comparison": "All"
-                  }
-                },
-                "Then": [
-                  {
-                    "type": "Eco.Gameplay.Civics.LegalActions.Prevent_LegalAction",
-                    "reference": false,
-                    "properties": {
-                      "InfoboxOnSuccess": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
-                        "properties": {}
-                      }
-                    }
-                  },
-                  {
-                    "type": "Eco.Gameplay.Civics.LegalActions.SendNotice",
-                    "reference": false,
-                    "properties": {
-                      "Message": "This bridge is protected.",
-                      "NotificationType": "SideBarMessage",
-                      "PeopleToSendTo": {
-                        "type": "GameValueContext",
-                        "_name": "Citizen",
-                        "markedUpName": "<icon name=\"User\" type=\"\">Citizen</icon>",
-                        "contextDescription": "<i>The citizen who performed the interaction.</i>"
-                      },
-                      "ValueToDisplay": null,
-                      "LocationToDisplay": null,
-                      "InfoboxOnSuccess": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
-                        "properties": {}
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "type": "Eco.Gameplay.Civics.Laws.LawSection",
-        "reference": false,
-        "properties": {
-          "Title": "Sign Protection",
-          "UserDescription": "This law is responsible to protect town placed signs on the roads.",
-          "Triggers": [
-            {
-              "type": "Eco.Gameplay.Civics.Laws.TriggerSettings",
-              "reference": false,
-              "properties": {
-                "Trigger": {
-                  "type": "Type",
-                  "value": "Eco.Gameplay.GameActions.PlaceOrPickUpObject"
-                },
-                "Configs": [
-                  {
-                    "type": "Eco.Gameplay.GameActions.SelectTriggerConfig",
-                    "typeToConfig": "Eco.Gameplay.GameActions.PlaceOrPickUpObject",
-                    "propNameBacker": "ItemUsed",
-                    "propDisplayName": "Item Placed or Picked Up",
-                    "properties": {
-                      "List": {
-                        "type": "GamePickerList",
-                        "mustDeriveType": {
-                          "type": "Type",
-                          "value": "Eco.Gameplay.Items.WorldObjectItem"
-                        },
-                        "requiredTag": null,
-                        "internalDescription": "<link=\"Item:HugeWoodenBannerSignItem\"><style=\"Item\"><icon name=\"HugeWoodenBannerSignItem\" type=\"\">Huge Wooden Banner Sign</icon></style></link>",
-                        "entries": [
-                          {
-                            "type": "Type",
-                            "value": "Eco.Mods.TechTree.HugeWoodenBannerSignItem"
-                          }
-                        ]
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ],
-          "IfThenBlocks": [
-            {
-              "type": "Eco.Gameplay.Civics.IfThenBlock",
-              "reference": false,
-              "properties": {
-                "If": {
-                  "type": "Eco.Gameplay.Civics.GameValues.SetOfConditions",
-                  "properties": {
-                    "List": [
-                      {
-                        "type": "Eco.Gameplay.Civics.GameValues.Values.DistrictRequirements",
-                        "properties": {
-                          "Location": {
-                            "type": "GameValueContext",
-                            "_name": "Action Location",
-                            "markedUpName": "<icon name=\"PlaceOrPickUpObject\" type=\"\">Action Location</icon>",
-                            "contextDescription": "<i>The position where the interaction took place.</i>"
-                          },
-                          "Districts": {
-                            "type": "GamePickerList",
-                            "mustDeriveType": {
-                              "type": "Type",
-                              "value": "Eco.Gameplay.LegislationSystem.District"
-                            },
-                            "requiredTag": null,
-                            "internalDescription": "<link=\"view:87:31230538\"><icon name=\"District\" type=\"\"><color=#000000FF>OP Roads Revision</color></icon></link>",
-                            "entries": [
-                              {
-                                "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Roads Revision",
-                                "reference": true
-                              }
-                            ]
-                          },
-                          "Requirements": "InsideOne"
-                        }
-                      },
-                      {
-                        "type": "GameValueContext",
-                        "_name": "PickingUpObject",
-                        "markedUpName": "<icon name=\"PlaceOrPickUpObject\" type=\"\">Picking Up Object</icon>",
-                        "contextDescription": "<i>Was the item placed?</i>"
-                      }
-                    ],
-                    "Comparison": "All"
-                  }
-                },
-                "Then": [
-                  {
-                    "type": "Eco.Gameplay.Civics.LegalActions.IgnoreAuth_LegalAction",
-                    "reference": false,
-                    "properties": {
-                      "InfoboxOnSuccess": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
-                        "properties": {}
-                      }
-                    }
-                  },
-                  {
-                    "type": "Eco.Gameplay.Civics.LegalActions.SendNotice",
-                    "reference": false,
-                    "properties": {
-                      "Message": "You are not allowed to pickup the sign.",
-                      "NotificationType": "SideBarMessage",
-                      "PeopleToSendTo": {
-                        "type": "GameValueContext",
-                        "_name": "Citizen",
-                        "markedUpName": "<icon name=\"User\" type=\"\">Citizen</icon>",
-                        "contextDescription": "<i>The citizen who performed the interaction.</i>"
-                      },
-                      "ValueToDisplay": null,
-                      "LocationToDisplay": null,
                       "InfoboxOnSuccess": {
                         "type": "Eco.Gameplay.Civics.GameValues.Yes",
                         "properties": {}
@@ -739,11 +478,11 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<link=\"view:87:31230545\"><icon name=\"District\" type=\"\"><color=#171AB3FF>OP Piped Roads Revision</color></icon></link>",
+                            "internalDescription": "<link=\"view:3710:22396163\"><icon name=\"District\" type=\"\"><color=#0A0081FF>OP Piped Roads Revision 38</color></icon></link>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Piped Roads Revision",
+                                "name": "OP Piped Roads Revision 38",
                                 "reference": true
                               }
                             ]
@@ -788,7 +527,7 @@
                       },
                       "PaymentCode": "Thx 4 placing Iron Pipes!",
                       "Silent": {
-                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
                         "properties": {}
                       },
                       "InfoboxOnSuccess": {
@@ -830,11 +569,11 @@
                               "value": "Eco.Gameplay.LegislationSystem.District"
                             },
                             "requiredTag": null,
-                            "internalDescription": "<link=\"view:87:31230545\"><icon name=\"District\" type=\"\"><color=#171AB3FF>OP Piped Roads Revision</color></icon></link>",
+                            "internalDescription": "<link=\"view:3710:22396163\"><icon name=\"District\" type=\"\"><color=#0A0081FF>OP Piped Roads Revision 38</color></icon></link>",
                             "entries": [
                               {
                                 "type": "Eco.Gameplay.LegislationSystem.District",
-                                "name": "OP Piped Roads Revision",
+                                "name": "OP Piped Roads Revision 38",
                                 "reference": true
                               }
                             ]
@@ -883,7 +622,98 @@
                         "properties": {}
                       },
                       "Silent": {
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
+                        "properties": {}
+                      },
+                      "InfoboxOnSuccess": {
                         "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "properties": {}
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Eco.Gameplay.Civics.Laws.LawSection",
+        "reference": false,
+        "properties": {
+          "Title": "Mayor Wage",
+          "UserDescription": "",
+          "Triggers": [
+            {
+              "type": "Eco.Gameplay.Civics.Laws.TriggerSettings",
+              "reference": false,
+              "properties": {
+                "Trigger": {
+                  "type": "Type",
+                  "value": "Eco.Gameplay.GameActions.GlobalTimer"
+                },
+                "Configs": [
+                  {
+                    "type": "Eco.Gameplay.GameActions.TimerTriggerConfig",
+                    "typeToConfig": null,
+                    "propNameBacker": null,
+                    "propDisplayName": null,
+                    "properties": {
+                      "HoursBetweenExecutions": 1.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "IfThenBlocks": [
+            {
+              "type": "Eco.Gameplay.Civics.IfThenBlock",
+              "reference": false,
+              "properties": {
+                "If": {
+                  "type": "Eco.Gameplay.Civics.GameValues.SetOfConditions",
+                  "properties": {
+                    "List": [],
+                    "Comparison": "All"
+                  }
+                },
+                "Then": [
+                  {
+                    "type": "Eco.Mods.SmartTax.SmartPay_LegalAction",
+                    "reference": false,
+                    "properties": {
+                      "SourceBankAccount": {
+                        "type": "GameValueWrapper",
+                        "value": {
+                          "type": "Eco.Gameplay.Economy.TreasuryBankAccount",
+                          "name": "One Piece Treasury",
+                          "reference": true
+                        }
+                      },
+                      "Currency": {
+                        "type": "GameValueWrapper",
+                        "value": {
+                          "type": "Eco.Gameplay.Economy.Currency",
+                          "name": "Euro",
+                          "reference": true
+                        }
+                      },
+                      "Amount": {
+                        "type": "GameValueWrapper",
+                        "value": 1.0
+                      },
+                      "Target": {
+                        "type": "GameValueWrapper",
+                        "value": {
+                          "type": "Eco.Gameplay.Civics.Titles.ElectedTitle",
+                          "name": "One Piece Mayor",
+                          "reference": true
+                        }
+                      },
+                      "PaymentCode": "Mayor wage.",
+                      "Silent": {
+                        "type": "Eco.Gameplay.Civics.GameValues.No",
                         "properties": {}
                       },
                       "InfoboxOnSuccess": {

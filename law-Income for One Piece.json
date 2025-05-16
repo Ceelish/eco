@@ -14,7 +14,7 @@
         "reference": false,
         "properties": {
           "Title": "Property Tax",
-          "UserDescription": "For each individual plot in One Piece a property tax must be paid.\nThe purpose of this tax is to fund infrastructure (roads) as well as city projects, both cultural (museum, school) and administrative (town hall, warehouse & harbor, silo trade).\n\n<b>Regular Citizen:</b> This amounts to €2 per day per claimed plot excluding the starting 16 homestead claims.\r\n<b>Company Citizens:</b> This amounts to €2 per day per claimed plot excluding 16 homestead claims multiplied with the count of employees of the company. (there is a little flaw in the calculation, observe and revise!)\n\r\nThe property tax remains at the same level over all time and balances out the lower purchasing cost of Town Claim Papers and Town Claim Stakes.",
+          "UserDescription": "For each individual plot in One Piece a property tax must be paid.\nThe purpose of this tax is to fund infrastructure (roads) as well as city projects, both cultural (museum, school) and administrative (town hall, warehouse & harbor, town dump).\n\nRegular Citizen: This amounts to €2 per day per claimed plot excluding the starting 16 homestead claims.\r\nCompany Citizens: This amounts to €2 per day per claimed plot excluding 16 homestead claims multiplied with the count of employees of the company. (there is a little flaw in the calculation, observe and revise!)\n\r\nThe property tax remains at the same level over all time and balances out the lower purchasing cost of Town Claim Papers and Town Claim Stakes.",
           "Triggers": [
             {
               "type": "Eco.Gameplay.Civics.Laws.TriggerSettings",
@@ -365,7 +365,7 @@
                       },
                       "Amount": {
                         "type": "GameValueWrapper",
-                        "value": 100.0
+                        "value": 200.0
                       },
                       "Target": {
                         "type": "GameValueContext",
@@ -382,6 +382,26 @@
                         "type": "Eco.Gameplay.Civics.GameValues.Yes",
                         "properties": {}
                       },
+                      "InfoboxOnSuccess": {
+                        "type": "Eco.Gameplay.Civics.GameValues.Yes",
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "Eco.Gameplay.Civics.LegalActions.SendNotice",
+                    "reference": false,
+                    "properties": {
+                      "Message": "You have been charged 200€ for placing a federation claim stake within One Piece.",
+                      "NotificationType": "SideBarMessage",
+                      "PeopleToSendTo": {
+                        "type": "GameValueContext",
+                        "_name": "Citizen",
+                        "markedUpName": "<icon name=\"User\" type=\"\">Citizen</icon>",
+                        "contextDescription": "<i>The citizen who performed the interaction.</i>"
+                      },
+                      "ValueToDisplay": null,
+                      "LocationToDisplay": null,
                       "InfoboxOnSuccess": {
                         "type": "Eco.Gameplay.Civics.GameValues.Yes",
                         "properties": {}
